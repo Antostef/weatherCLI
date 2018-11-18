@@ -1,0 +1,19 @@
+{
+    "name": "njs-yfi",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "bin": {
+        "mycommand": "./index.js"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "commander": "^2.19.0",
+        "fs": "0.0.1-security",
+        "inquirer": "^6.2.0",
+        "sqlite": "^3.0.0"
+    }
+}
