@@ -39,10 +39,14 @@ Using
 ```
 ./index.js -t
 ```
-You will get this prompt :
-![alt text](https://imgur.com/a/hMhDQBP)
-
-if you say no to third question this option will act as if it was --meteo
+You will get a quick prompt asking you to 
+```
+? Enter your country or country code: 
+? Enter your city: 
+? Do you want this on a text file ?
+```
+All the input has to be done in english(i.e : italy not italie for the country and london not londres for the city.).
+the third question is a (Y/n) answer, if you say no, this option will act as if it was --meteo.
 
 ### Have fun :)
 
