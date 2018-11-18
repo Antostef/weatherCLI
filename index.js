@@ -232,7 +232,7 @@ else if (program.meteotext)
             {
                 fs.writeFile('./meteo.txt', meteoResult.name + ': it is '+temp+'ºc with a '+ meteoResult.weather[0].description+'\n',(err) => {
                     if (err) throw err
-                    console.log('fichier écrit')
+                    console.log('Result written in meteo.txt')
                 })
             }
         }
