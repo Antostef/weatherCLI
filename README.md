@@ -39,7 +39,12 @@ Using
 ```
 ./index.js -t
 ```
+You will get this prompt :
+![alt text](https://imgur.com/a/hMhDQBP)
 
+if you say no to third question this option will act as if it was --meteo
+
+### Have fun :)
 
 ## Authors
 
